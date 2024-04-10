@@ -61,7 +61,7 @@ class BasicForm extends React.Component {
   render() {
     const headingStyle = {
       textAlign: 'left',
-      marginLeft: '100px', // You can adjust this value as needed to align with your form
+      marginLeft: '100px', // value i used to center the heading
      
     
     };
@@ -73,19 +73,17 @@ class BasicForm extends React.Component {
       padding: '20px',
       textAlign: 'left',
       // This aligns the text of the form elements to the left
-      // If you want to align the form itself to the left, you might want to adjust the margin property
-      // For example, to align the form to the left of its parent, you could use: margin: '0'
     };
   
     const inputStyle = {
-      margin: '10px 0', // You can adjust the margins if needed
+      margin: '10px 0', 
       padding: '10px',
       border: '1px solid #ccc',
       borderRadius: '4px',
       width: '100%', 
       display: 'block',
-      // You can set a specific width if you want the boxes smaller
-      // For example, to make the inputs take up only as much space as they need, you could use: width: 'auto'
+      //code and styling for the input boxes
+     
     };
   
     const buttonStyle = {
@@ -97,8 +95,9 @@ class BasicForm extends React.Component {
       fontSize: '16px',
       cursor: 'pointer',
       marginTop: '10px',
-      width: 'auto', // Adjust the width of the button as necessary
+      width: 'auto', 
       marginLeft: '643px',
+      // code for the button
     };
     
     return (
